@@ -1,0 +1,48 @@
+table{
+    padding:20px;
+    background-color:rgb(155, 130, 164);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-width:2px;
+    border-style: solid;
+    border-color: rgb(42, 22, 51);
+    box-shadow: 1px 1px 2px 1px;
+    min-height:300px;
+    
+}
+
+
+th{
+    padding: 10px;
+    border-width:2px;
+    border-style: solid;
+    border-color:rgb(67, 32, 91);
+    background-color:rgb(92, 45, 117)
+}
+
+td{ 
+    padding: 10px;
+    border-width:2px;
+    border-style: solid;
+    border-color:rgb(67, 32, 91);
+    
+    
+}
+
+td:hover {background-color: rgba(57, 24, 156, 0.381);}
+
+tr:nth-child(odd) {
+    background-color: rgb(157, 124, 170);
+}
+
+tr{
+    background-color:rgb(154, 116, 169)   
+}
+
+tfoot{ 
+    border: width 3px;
+border-style:solid;
+border-color:black
+
+}
